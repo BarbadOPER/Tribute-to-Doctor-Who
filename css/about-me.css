@@ -1,0 +1,144 @@
+@media (max-width: 768px) {
+    header {
+        font-size: 14px;
+    }
+
+    img main-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        width: 70vh;
+        height: 100vh;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100vh;
+    
+}
+
+body {
+    background-color: #06081d;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Merriweather';
+}
+
+img {
+
+    max-width: 100%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+header {
+    border: 5px solid whitesmoke;
+    padding: 0.5em;
+    
+    text-align: center;
+
+    width: fit-content;
+
+}
+header>h1 {
+    font-size: 50px;
+}
+
+div {
+    display: flex;
+}
+
+.main {
+    
+    gap: 20px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.box:nth-child(1) {
+    justify-content: center;
+    margin: 2em auto 0.2em;
+
+
+
+}
+
+.box:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+
+
+}
+.div {
+    flex-direction: column;
+    display: flex;
+    
+}
+figure {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    
+}
+.text {
+    display: flex;
+}
+.bio {
+    margin: auto 2rem auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-size: 24px;
+}
+
+footer {
+   
+    text-align: center;
+    margin: 0.8em;
+   
+}
+.back {
+    margin: 1.5em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a {
+    color: rgb(33, 135, 167);
+    text-decoration: none; 
+}
+
+a:active {
+    color: rgb(42, 2, 48);
+}
+
+a:hover {
+    color: blueviolet;
+}
+a:hover:visited {
+    color: violet;
+}
+a:visited {
+    color: rgb(33, 135, 167);
+}

@@ -1,0 +1,518 @@
+@media (max-width:1024px) {
+    header {
+        font-size: 14px;
+    }
+
+    img main-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Freakart';
+    src: url('/font/FreakartPersonalUseBold-vmOl7.ttf') format('truetype');
+}
+
+.intro-h2 {
+    color: peru;
+    font-family: 'Freakart';
+    font-size: 80px;
+}
+
+figcaption {
+    font-family: 'Oswald';
+    font-size: 30px;
+    color: goldenrod;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.Header-one, .Header-two, .Header-three {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 6px;
+
+}
+
+.Doctor:hover,
+.Doctory:hover,
+.Doctoryy:hover {
+    transform: scaleY(1.11);
+}
+
+.Doctor {
+    display: block;
+    margin: 0 auto;
+    margin-left: 2rem;
+    text-align: center;
+    clear: both;
+
+}
+
+.Doctory {
+    display: block;
+    justify-content: left;
+
+
+
+}
+
+.Doctoryy {
+    display: block;
+    justify-content: right;
+    margin-right: 2rem;
+
+}
+
+.copy {
+    font-size: 21px;
+}
+
+p {
+    margin: 20px auto;
+    font-size: 42px;
+    line-height: 1.25em;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.fig {
+    font-style: italic;
+    margin-right: 17px;
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    font-size: 14px;
+
+}
+a {
+    color: goldenrod;
+}
+a:active {
+    color: rgb(42, 2, 48);
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:hover:visited {
+    color: violet;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+summary {
+    font-size: 44px;
+}
+
+.H1 {
+    font-family: 'Freakart';
+    font-size: 68px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    color: lemonchiffon;
+
+
+}
+
+
+body {
+    margin: o;
+    padding: o;
+    background: linear-gradient(to bottom, #06081d, #050c13);
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Merriweather';
+
+}
+
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/images/galaxy.jpg')no-repeat center center/cover;
+    opacity: 0.40;
+    z-index: -1;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+
+.header>img, .header>p {
+    position: relative;
+    top: -55px;
+    display: block;
+
+
+}
+
+.bio-h3 {
+    display: block;
+    float: right;
+    margin-bottom: 42px;
+    margin-right: 2rem;
+}
+
+.Doctor,
+.Doctory,
+.Doctoryy {
+    display: block;
+    max-width: 100%;
+    width: 360px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+
+
+.intro {
+    margin-top: 5em;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.figure-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    gap: 2px;
+    margin: 0 auto;
+    width: 450px;
+    height: 600px;
+
+
+}
+
+.timeless {
+    margin-bottom: 10.5em;
+}
+
+.img-bio {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(159, 190, 180, 0.40);
+    box-sizing: content-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 3rem;
+}
+
+.figure-bio:hover {
+    transform: scale(1.10);
+    box-shadow: 0 12px 20px rgba(54, 52, 52, 0.5);
+
+}
+
+footer {
+    text-align: center;
+
+}
+
+.pic1 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(231, 3, 3, 0.577);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 2px;
+}
+
+.pic1:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 20px rgba(163, 4, 4, 0.5);
+}
+
+.tardis {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(180, 35, 137, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tardis:hover {
+    transform: scale(1.21);
+    box-shadow: 0 4px 12px rgba(180, 35, 137, 0.63);
+
+}
+
+.timelord {
+    display: block;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem auto 2rem;
+
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    justify-content: end;
+    align-items: end;
+}
+
+nav {
+    line-height: 1.3em;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.key-summary {
+    font-size: 40px;
+    cursor: pointer;
+    padding: 10x;
+    color: gold;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.key-icon-wrapper {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.key-icon-wrapper:focus {
+    outline: none;
+}
+
+.key-icon {
+    margin-right: 0px;
+    width: 40px;
+
+}
+
+details[open] .key-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.key-text {
+    cursor: default;
+    margin-right: 2.6rem;
+}
+
+details summary {
+    list-style: none;
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    color: rgb(230, 186, 67);
+    background-color: black;
+    width: max-content;
+    margin-top: 0;
+}
+
+.list1-h3 {
+    margin-left: 2rem;
+}
+
+.list1-text {
+    margin: 2rem;
+}
+
+
+.list2-text,
+.list2-h3 {
+    display: block;
+    margin-left: 38px;
+}
+
+.tardis-figure {
+    display: block;
+    float: right;
+    margin-right: 70px;
+}
+
+.tardis {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.list3-text {
+    display: block;
+    margin-left: 1rem;
+}
+
+.fight {
+    display: block;
+    float: right;
+}
+
+.fight-text {
+    display: block;
+    margin-left: 1rem;
+}
+
+.floatright {
+    float: inline-end;
+    margin-left: 1rem;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 1rem;
+}
+
+.list5-text {
+    text-align: center;
+    margin: 5px;
+}
+
+.list5-h3 {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 2px;
+}
+
+.list5-figure {
+
+    display: block;
+}
+
+.fig5 {
+    text-align: center;
+}
+
+.list6-text {
+    margin: 4px;
+}
+
+.list6-h3 {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14rem;
+    margin-top: 0;
+    background-color: black;
+    width: max-content;
+}
+
+.list3-h3,
+.fight-h3 {
+    margin-top: 0;
+}
+
+.list7-figure {
+    display: block;
+    float: left;
+}
+
+.list7-text {
+    clear: right;
+}
+
+.list7-h3 {
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(230, 186, 67);
+    width: fit-content;
+    float: right;
+    margin-top: 0;
+}
+.list7-text, .list7-h3 {
+    margin-left: 0.7rem;
+    margin-right: 0.2rem;
+}
+.tardis {
+    margin-top: 2rem;
+}
+
+.list8-figure,
+.unit {
+    display: block;
+    float: right;
+}
+
+.list8-h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(230, 186, 67);
+    width: fit-content;
+    margin-top: 0;
+}
+.list8-text, .list8-h3 {
+    margin-left: 0.7rem;
+}
+.list9-h3 {
+    font-size: 30px;
+    width: fit-content;
+}
+.list9-text, .list9-h3 {
+    margin-left: 0.7rem;
+}
+.ten {
+    display: block;
+    float: right;
+    margin-left: 0;
+    margin-top: -1.5rem;
+}
+
+.ten-h3 {
+    font-size: 38px;
+
+}
+.ten-text, .ten-h3 {
+    margin-left: 0.7rem;
+}
+.back-to-top {
+    font-size: 18px;
+    margin-left: 2rem;
+}
