@@ -14,18 +14,18 @@
     }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 @font-face {
-    font-family: "Freakart";
-    src: url("font/FreakartPersonalUseBold-vmOl7.ttf") format("truetype");
+    font-family: 'Freakart';
+    src: url('font/FreakartPersonalUseBold-vmOl7.ttf') format('truetype');
 }
 
 .intro-h2 {
     color: peru;
-    font-family: "Freakart";
+    font-family: 'Freakart';
     font-size: 80px;
 }
 
@@ -131,7 +131,7 @@ summary {
 }
 
 .H1 {
-    font-family: "Freakart";
+    font-family: 'Freakart';
     font-size: 68px;
     text-align: center;
     position: relative;
@@ -154,13 +154,13 @@ body {
 
 
 body::before {
-    content: "";
+    content: '';
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("images/galaxy.jpg")no-repeat center center/cover;
+    background: url('images/galaxy.jpg')no-repeat center center/cover;
     opacity: 0.40;
     z-index: -1;
 }
