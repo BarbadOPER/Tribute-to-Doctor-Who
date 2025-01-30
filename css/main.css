@@ -20,12 +20,12 @@
 
 @font-face {
     font-family: "Freakart";
-    src: url("font/FreakartPersonalUseBold-vmOl7.ttf") format('truetype');
+    src: url("font/FreakartPersonalUseBold-vmOl7.ttf") format("truetype");
 }
 
 .intro-h2 {
     color: peru;
-    font-family: 'Freakart';
+    font-family: "Freakart";
     font-size: 80px;
 }
 
@@ -131,7 +131,7 @@ summary {
 }
 
 .H1 {
-    font-family: 'Freakart';
+    font-family: "Freakart";
     font-size: 68px;
     text-align: center;
     position: relative;
@@ -154,7 +154,7 @@ body {
 
 
 body::before {
-    content: '';
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
